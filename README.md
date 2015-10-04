@@ -9,10 +9,10 @@ Programa destinado a reconhecer padrões desenhados no grid.
  - Servir de base para outros projetos ou estudos que envolvam redes neurais artificiais
 
 ### Executando
- -- Depois de feito o download do projeto, o programa pode ser executado com um simples duplo-clique em dist/PatternRecog.jar <br>
- -- Pode também ser chamado direto via linha de comando: java -jar PatternRecog.jar<br>
- -- O programa não necessita de nenhuma biblioteca externa<br>
- -- Requisito mínimo para o correto funcionamento: Máquina Virtual Java - JRE 7.0<br>
+ - Depois de feito o download do projeto, o programa pode ser executado com um simples duplo-clique em dist/PatternRecog.jar <br>
+ - - Pode também ser chamado direto via linha de comando: java -jar PatternRecog.jar<br>
+ - - O programa não necessita de nenhuma biblioteca externa<br>
+ - - Requisito mínimo para o correto funcionamento: Máquina Virtual Java - JRE 7.0<br>
 
 ### Reconhecendo padrões
  -- Primeiro são inseridos padrões:<br>
