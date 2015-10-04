@@ -5,7 +5,7 @@ Programa destinado a reconhecer padrões desenhados no grid.
 
 ### Características
  - Pode servir como OCR
- - Inspirado no algoritmo mapa auto-organizáveis, mais conhecidos como Self-Organizing Maps, desenvolvido por Teuvo Kohonen
+ - Inspirado no algoritmo de mapas auto-organizáveis, mais conhecidos como Self-Organizing Maps e desenvolvido por Teuvo Kohonen
  - Servir de base para outros projetos ou estudos que envolvam redes neurais artificiais
 
 ### Executando
@@ -22,10 +22,10 @@ Programa destinado a reconhecer padrões desenhados no grid.
 
  - Em seguida clique em adicionar, será solicitado o símbolo que o padrão representa<br>
  - Depois de gravado no mínimo 2 padrões/símbolos pode se treinar o programa<br>
- - Uma vez treinado, o usuário pode desenhos no grid e clicar em reconhecer<br>
+ - Uma vez treinado, o usuário pode desenhar no grid e clicar em reconhecer<br>
  - Se o padrão desenhado for parecido com a letra A como no exemplo, a resposta deverá ser como na imagem:<br>
 
 ![screenshot](PatternRecog/img/LetterA02.jpg)
 
-OBS.: Padrões que divergem muito da letra que foi inserida podem apresentar falhas na tentativa de reconhecimento<br>
+OBS.: Padrões que divergem muito da letra que foi inserida pode apresentar falhas na tentativa de reconhecimento<br>
 
