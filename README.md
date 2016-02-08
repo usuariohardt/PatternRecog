@@ -29,3 +29,4 @@ Programa destinado a reconhecer padrões desenhados no grid.
 
 OBS.: Padrões que divergem muito da letra que foi inserida pode apresentar falhas na tentativa de reconhecimento<br>
 
+@author: Daniel Hardt Lima
