@@ -58,7 +58,6 @@ public class Logica {
         try {
             int numNeuroniosEntrada = Logica.ALTURA * Logica.LARGURA;
             int numNeuroniosSaida = lista.size();
-            
             double conjunto[][] = new double[numNeuroniosSaida][numNeuroniosEntrada];
             
             for (int t = 0; t < numNeuroniosSaida; t++) {

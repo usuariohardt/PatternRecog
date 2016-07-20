@@ -16,7 +16,7 @@ public class Celula {
     Color backColor = Color.WHITE;
     Color selColor = Color.BLUE;
     private boolean selected = false;
-    //--------------------------------------------------------------------------
+    
     public Celula(Rectangle2D.Double rect) {
         this.rect = rect;
     }

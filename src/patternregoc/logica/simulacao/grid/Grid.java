@@ -32,13 +32,14 @@ public class Grid extends JPanel {
     private boolean STATUS_CELULA = false;
     private boolean EDITABLE = false;
     
-    //--------------------------------------------------------------------------
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     public Grid() {
         this.addMouseListener(ml);
         this.addMouseMotionListener(mm);
         this.setSize(400, 500);
     }
     //--------------------------------------------------------------------------
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     public Grid(int w, int h) {
         this.addMouseListener(ml);
         this.addMouseMotionListener(mm);

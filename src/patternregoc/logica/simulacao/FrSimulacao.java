@@ -16,11 +16,12 @@ import patternregoc.logica.simulacao.grid.PanelGrid;
  */
 public class FrSimulacao extends javax.swing.JFrame {
     
-    private final String VERSAO = "1.0.0";
+    private final String VERSAO = "1.0.1";
     private PanelGrid panelGrid;
     private final DefaultListModel modeloListaPadroes;
     private final Logica logica;
     
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     public FrSimulacao() {
         initComponents();
         this.setTitle("Pattern Recognition - " + VERSAO);
