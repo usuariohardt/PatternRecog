@@ -58,6 +58,7 @@ public class Logica {
         try {
             int numNeuroniosEntrada = Logica.ALTURA * Logica.LARGURA;
             int numNeuroniosSaida = lista.size();
+            
             double conjunto[][] = new double[numNeuroniosSaida][numNeuroniosEntrada];
             
             for (int t = 0; t < numNeuroniosSaida; t++) {
@@ -88,9 +89,8 @@ public class Logica {
             int idx = 0;
             
             for (int y = 0; y < obj.getAltura(); y++) {
-                for (int x = 0; x < obj.getLargura(); x++) {
+                for (int x = 0; x < obj.getLargura(); x++)
                     entrada[idx++] = obj.getDados(x, y) ? .5 : -.5;
-                }
             }
             
             int melhor = this.rede.vencedor(entrada);

@@ -166,9 +166,9 @@ public class MatrizCalculo {
         
         Double v[] = matriz.matrizParaArray();
         double r = 0.0;
-        for (Double valor : v) {
+        for (Double valor : v)
             r += Math.pow(valor, 2);
-        }
+        
         return Math.sqrt(r);
     }
     //--------------------------------------------------------------------------

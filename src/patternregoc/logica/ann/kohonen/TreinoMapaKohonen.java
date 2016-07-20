@@ -112,10 +112,11 @@ public final class TreinoMapaKohonen {
             }
             diferenca = input.getSintetico() - aux.get(0, this.contNeuroniosEntrada);
             tamanho += diferenca * diferenca;
-            if (this.metodoAprendizado ==MetodoAprendizado.SUBTRACAO)
+            if (this.metodoAprendizado == MetodoAprendizado.SUBTRACAO)
                 this.matrizCorrecao.adicionar(melhor, this.contNeuroniosEntrada, diferenca);
             else
                 this.matrizTrabalho.set(0, this.contNeuroniosEntrada, this.taxaAprendizado * input.getSintetico() + aux.get(0, this.contNeuroniosEntrada));
+            
             if (tamanho > this.erroGlobal)
                 this.erroGlobal = tamanho;
             if (this.metodoAprendizado == MetodoAprendizado.ADICAO) {
@@ -214,6 +215,7 @@ public final class TreinoMapaKohonen {
         
         for (int i = 0; i < this.contNeuroniosEntrada; i++)
             matriz.set(linha, i, matriz.get(linha, i) * tamanho);
+        
         matriz.set(linha, this.contNeuroniosEntrada, 0);
     }
     //--------------------------------------------------------------------------
